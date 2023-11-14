@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackagesList render tests PackagesList should be render 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      [
+        {
+          "id": "bd6c780f-be9a-453f-9eb3-2d5a9c8f84cb",
+          "isSynchronized": true,
+          "latitude": 37.4219983,
+          "longitude": -122.084,
+          "speed": 0,
+          "time": "2023-11-06T19:02:34.848Z",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#8b8b8b",
+              "borderBottomWidth": 1,
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "padding": 15,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              ellipsizeMode="tail"
+              numberOfLines={1}
+              style={
+                {
+                  "fontSize": 16,
+                  "marginRight": 15,
+                }
+              }
+            >
+              Pacote ID: 
+              bd6c780f-be9a-453f-9eb3-2d5a9c8f84cb
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                }
+              }
+            >
+              Sincronizado
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                }
+              }
+            >
+              16:02
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
